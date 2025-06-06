@@ -1,0 +1,117 @@
+{
+    "saudacao": {
+        "patterns": ["oi", "olá", "bom dia", "boa tarde", "boa noite", "e aí", "tudo bem", "como vai"],
+        "responses": [
+            "Olá! Como posso ajudar hoje?",
+            "Oi! Seja bem-vindo(a).",
+            "Olá! Em que posso ser útil?",
+            "Oi, tudo certo por aqui! Como você está?",
+            "Olá! Fico feliz em te ver. Como posso te ajudar?"
+        ]
+    },
+    "despedida": {
+        "patterns": ["tchau", "adeus", "até mais", "até logo", "flw", "tenho que ir"],
+        "responses": [
+            "Até logo! Foi um prazer ajudar.",
+            "Tchau! Volte sempre que precisar.",
+            "Adeus! Tenha um ótimo dia/noite.",
+            "Foi um prazer te atender. Até a próxima!",
+            "Obrigado por nos contatar. Tchau!"
+        ]
+    },
+    "agradecimento": {
+        "patterns": ["obrigado", "muito obrigado", "valeu", "agradeço", "muito grato"],
+        "responses": [
+            "De nada! Sempre às ordens.",
+            "Disponha! Se precisar de algo mais, é só chamar.",
+            "Fico feliz em ajudar!",
+            "Por nada!",
+            "Conte sempre conosco!"
+        ]
+    },
+    "horario_funcionamento": {
+        "patterns": ["horário de funcionamento", "que horas vocês abrem", "qual o horário", "horário de atendimento", "abrem que horas"],
+        "responses": [
+            "Nosso horário de funcionamento é de Segunda a Sexta, das 9h às 18h.",
+            "Atendemos de segunda a sexta, das 9h às 18h, exceto feriados nacionais.",
+            "Você pode nos encontrar de 9h às 18h, de segunda a sexta-feira."
+        ]
+    },
+    "contato_humano": {
+        "patterns": ["falar com atendente", "falar com humano", "preciso de ajuda humana", "quero um atendente", "chamar um atendente"],
+        "responses": [
+            "Entendi! Para falar com um atendente humano, por favor, ligue para (XX) XXXX-XXXX ou envie um e-mail para atendimento@empresa.com.br. Nosso time está pronto para te ajudar!",
+            "Se você precisa de um atendimento mais personalizado, pode entrar em contato diretamente com nossa equipe pelo telefone ou e-mail. Posso te ajudar com o número/endereço?",
+            "Compreendo! No momento, sou um chatbot. Para falar com uma pessoa, por favor, acesse nossa página de contato em [link do seu site]."
+        ]
+    },
+    "problema_produto": {
+        "patterns": ["problema com produto", "produto com defeito", "meu produto não funciona", "defeito no produto", "garantia"],
+        "responses": [
+            "Lamento pelo ocorrido com seu produto. Por favor, descreva o problema com mais detalhes e qual o modelo/número de série do produto, para que eu possa direcionar para o suporte.",
+            "Para problemas com produtos, pedimos que entre em contato com nossa equipe de suporte técnico através do telefone (XX) XXXX-XXXX ou abra um ticket em [link do portal de suporte].",
+            "Entendi. Precisamos de mais informações para te ajudar com isso. Poderia nos informar o número do pedido ou da nota fiscal?"
+        ]
+    },
+    "status_pedido": {
+        "patterns": ["status do meu pedido", "onde está meu pedido", "rastrear pedido", "acompanhar entrega"],
+        "responses": [
+            "Para verificar o status do seu pedido, por favor, me informe o número do pedido ou o seu CPF/CNPJ.",
+            "Você pode rastrear seu pedido inserindo o número de rastreamento em [link do site de rastreamento]. Se não tiver o número, me informe o número do pedido ou CPF/CNPJ.",
+            "Para acompanhar a entrega, preciso do número do seu pedido. Poderia digitá-lo, por favor?"
+        ]
+    },
+    "metodos_pagamento": {
+        "patterns": ["formas de pagamento", "métodos de pagamento", "como posso pagar", "aceitam cartão", "boleto"],
+        "responses": [
+            "Aceitamos pagamentos via cartão de crédito (principais bandeiras), boleto bancário e Pix. Qual forma você prefere?",
+            "Você pode pagar com cartão de crédito, boleto ou Pix. Para mais detalhes, visite nossa página de formas de pagamento em [link do seu site].",
+            "Nossas opções de pagamento incluem cartão de crédito, boleto e Pix. Há alguma que você esteja procurando especificamente?"
+        ]
+    },
+    "suporte_tecnico": {
+        "patterns": ["suporte técnico", "ajuda técnica", "configurar", "instalar", "assistência técnica"],
+        "responses": [
+            "Para suporte técnico, por favor, descreva seu problema detalhadamente. Você também pode acessar nossa base de conhecimento em [link da base de conhecimento] ou ligar para nosso suporte especializado.",
+            "Nosso time de suporte técnico está disponível. Qual a sua dúvida ou dificuldade? Se for mais complexo, posso te direcionar para um especialista."
+        ]
+    },
+    "info_geral_empresa": {
+        "patterns": ["quem são vocês", "sobre a empresa", "qual a empresa", "nome da empresa"],
+        "responses": [
+            "Somos a TechSolutions, uma empresa dedicada a oferecer as melhores soluções em tecnologia e atendimento ao cliente.",
+            "A TechSolutions é especialista em [cite a área principal da sua empresa fictícia, ex: softwares de gestão, eletrônicos inovadores, serviços digitais].",
+            "Você está falando com a TechSolutions! Estamos aqui para ajudar com suas dúvidas sobre nossos produtos e serviços."
+        ]
+    },
+    "como_funciona": {
+        "patterns": ["como funciona", "como usar", "manual", "tutorial"],
+        "responses": [
+            "Para entender como funciona o [produto/serviço], você pode consultar nosso manual online em [link do manual] ou assistir aos nossos tutoriais em vídeo em [link do canal no YouTube].",
+            "Você tem alguma pergunta específica sobre o funcionamento? Posso tentar ajudar por aqui. Se não, nossos tutoriais são bem completos!"
+        ]
+    },
+    "localizacao": {
+        "patterns": ["onde fica a loja", "endereço", "localização", "onde estão localizados"],
+        "responses": [
+            "Nossa sede principal está localizada na Rua da Inovação, 123 - Centro, Cidade Futura - CF. Atendemos principalmente online, mas agendamentos podem ser feitos para visitas.",
+            "Estamos localizados na Rua da Inovação, 123. Se preferir, podemos resolver tudo online para sua comodidade!"
+        ]
+    },
+    "promocoes": {
+        "patterns": ["promoções", "descontos", "ofertas", "tem alguma promoção", "cupom"],
+        "responses": [
+            "Fique de olho em nossas promoções na página [link da página de promoções]! Sempre temos ofertas especiais para nossos clientes.",
+            "Sim! Sempre temos promoções rolando. Visite nosso site ou assine nossa newsletter para não perder nada. Qual tipo de produto te interessa?"
+        ]
+    },
+    "nao_entendi": {
+        "patterns": [],
+        "responses": [
+            "Desculpe, não consegui entender sua pergunta. Poderia reformular de outra forma, por favor?",
+            "Não entendi bem. Você pode tentar usar outras palavras ou ser mais específico(a)?",
+            "Minha inteligência ainda está em desenvolvimento! Não consegui processar essa informação. Tente algo mais simples, por favor.",
+            "Ops! Parece que essa não é uma das minhas especialidades. Você poderia perguntar de outra forma?"
+        ]
+    }
+}
